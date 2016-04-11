@@ -9,4 +9,6 @@ sheet1.each do |row|
   # do something interesting with a row
   p row[0]
   p "yes" if row[0].is_a?(Date)
+
+  #TODO : 
 end
